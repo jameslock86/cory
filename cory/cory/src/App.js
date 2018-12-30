@@ -9,11 +9,11 @@ class App extends Component {
     return (
       <HashRouter >
        <div>
-          <h1>Simple SPA</h1>
+          <h1>PunkBordello</h1>
           <ul className="header">
-            <li><NavLink to="/">Home</NavLink></li>
-            <li><NavLink to="/about">About</NavLink></li>
-           <li><NavLink to="/topics">Topics</NavLink></li>
+            <a className="navLink"><NavLink to="/">Home</NavLink></a>
+            <a className="navLink"><NavLink to="/about">About</NavLink></a>
+           <a className="navLink"><NavLink to="/topics">Topics</NavLink></a>
           </ul>
           
             <Route path="/"exact component={Home}/>
