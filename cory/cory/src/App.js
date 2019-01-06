@@ -4,12 +4,14 @@ import './App.css';
 import Home from './components/home.js';
 import About from './components/about.js';
 import Topics from './components/topics.js';
+import CoryImage from './public/coryImage.jpg';
 class App extends Component {
   render() {
     return (
       <HashRouter >
        <div>
-          <h1>PunkBordello</h1>
+         <img id="hero-image"src={CoryImage} alt="hero Image"/>
+          <h1 id="hero-title">PunkBordello</h1>
           <ul className="header">
             <a className="navLink"><NavLink to="/">Home</NavLink></a>
             <a className="navLink"><NavLink to="/about">About</NavLink></a>
@@ -26,4 +28,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App; 
