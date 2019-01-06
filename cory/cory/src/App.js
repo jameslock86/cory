@@ -4,6 +4,7 @@ import './App.css';
 import Home from './components/home.js';
 import About from './components/about.js';
 import Topics from './components/topics.js';
+import Music from './components/music.js';
 import CoryImage from './public/coryImage.jpg';
 class App extends Component {
   render() {
@@ -11,16 +12,18 @@ class App extends Component {
       <HashRouter >
        <div>
          <img id="hero-image"src={CoryImage} alt="hero Image"/>
-          <h1 id="hero-title">PunkBordello</h1>
+          <h1 id="hero-title">Punk Bordello</h1>
           <ul className="header">
-            <a className="navLink"><NavLink to="/">Home</NavLink></a>
-            <a className="navLink"><NavLink to="/about">About</NavLink></a>
-           <a className="navLink"><NavLink to="/topics">Topics</NavLink></a>
+            <a><NavLink className="navLink" to="/">Home</NavLink></a>
+            <a><NavLink className="navLink" to="/about">About</NavLink></a>
+           <a><NavLink className="navLink" to="/topics">Topics</NavLink></a>
+            <a><NavLink className="navLink" to="/music">Music</NavLink></a>
           </ul>
           
             <Route path="/"exact component={Home}/>
             <Route path="/about" component={About}/>
             <Route path="/topics" component={Topics}/>
+            <Route path="/music" component={Music}/>
           </div>
         
       </HashRouter >

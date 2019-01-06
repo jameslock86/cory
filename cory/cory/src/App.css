@@ -1,17 +1,24 @@
 .App {
   text-align: center;
+  font-family: 'Rock Salt', cursive;
 }
 .navLink{
   padding:15px;
+  color:white !important;
+  font-family: 'Rock Salt', cursive;
+
 }
 #hero-image{
   width: 100vw;
 }
 #hero-title{
-  margin-top: -250px;
+  margin-top: -275px;
+  font-family: 'Rock Salt';
+  margin-left:20px;
+  font-size:35px;
 }
 .header{
-  margin-top:208px;
+  margin-top:180px;
   background-color:black;
   padding: 20px;
 }
