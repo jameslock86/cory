@@ -1,9 +1,9 @@
 import React, { Component } from "react";
- 
+import './index.css';
 class Music extends Component {
   render() {
     return (
-      <div>
+      <div className="section-body">
         <h2>Music </h2>
         <p>Soundcloud, bandcamp, Spotify, Apple Music, I paid for
            pretty much everything to be available 

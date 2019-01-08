@@ -1,10 +1,10 @@
 import React, { Component } from "react";
- 
+ import './index.css';
 class Home extends Component {
   render() {
     return (
-      <div>
-        <h2>HELLO </h2>
+      <div className="section-body">
+        <h2>Home </h2>
         <p>Soundcloud, bandcamp, Spotify, Apple Music, I paid for
            pretty much everything to be available 
           everywhere and as long as you search PunkBordello
