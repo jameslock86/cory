@@ -1,47 +1,42 @@
 import React, { Component } from "react";
 import CoryImage from '../public/coryImage.jpg';
+import Yass from '../public/yass.jpg';
  import './index.css';
 class Home extends Component {
   render() {
     return (
       <div className="section-body">
-        <h2>Home </h2>
-        <p>Soundcloud, bandcamp, Spotify, Apple Music, I paid for
-           pretty much everything to be available 
-          everywhere and as long as you search PunkBordello
-           it’ll always be the first thing to come up</p>
- 
-        <p>Duis a turpis sed lacus dapibus elementum sed eu lectus.</p>
+        
+        <div className="intro-section">
+        <h1>Home </h1>
+        
+          <h3> So you’ ve made it to the PunkBordello Home page huh ?</h3>
+        </div>
 
-        <img id="image-1"src={CoryImage} alt="hero Image" align="right"/>
-        <p> Aptent class cubilia dignissim elit erat eros
-         est facilisis fermentum fringilla interdum ligula magna
-          molestie nam neque nulla odio placerat porttitor praesent
-           primis quis scelerisque semper sodales ultrices vivamus
-            volutpat.Ad auctor blandit congue eleifend habitasse magnis non nostra
-             phasellus potenti primis pulvinar sodales.Ac auctor consequat conubia donec eros
-              et fames gravida hac iaculis integer lacinia lectus luctus montes neque non placerat 
-              sed tempor tincidunt urna.Condimentum curae;
+        <img id="image-1"src={Yass} alt="hero Image" align="right"/>
+        <p> 
 
-        dapibus egestas eu habitant habitasse hac hendrerit interdum ipsum laoreet lectus 
-        magnis malesuada nulla nullam primis pulvinar quisque rhoncus senectus suscipit 
-        suspendisse ut vestibulum vitae.
 
-        Dictum dictumst et feugiat imperdiet libero litora mauris mus nascetur nec odio orci p
-        ellentesque placerat porta praesent senectus suscipit tempor tristique vehicula vivamus.
-        Accumsan aliquam amet feugiat inceptos integer justo lacinia lectus maecenas malesuada 
-        massa mauris nec porttitor potenti pretium purus rhoncus rutrum sed sociis sollicitudin 
-        tristique vel venenatis viverra vulputate.A amet curabitur diam dictum eget eleifend facilis
-        i fusce habitant libero lorem magna malesuada mauris nostra potenti quam sociosqu sodales tristiqu
-        e ultrices.Ad bibendum class cras cum curae;
-        dictum facilisi faucibus feugiat fusce hac himenaeos justo magna magnis nec nullam part
-        urient sem semper tincidunt varius velit.
 
-        Condimentum diam dictumst egestas eros felis imperdiet ligula mi parturient 
-        pulvinar quisque ridiculus suspendisse torquent varius vehicula vivamus volutpat
-        .Arcu auctor cubilia diam donec elit felis in inceptos ipsum mus nostra nullam 
-        ornare pellentesque penatibus per pharetra potenti primis quisque sapien sem taciti tempus venenatis vivamus vulputate.Aliquam arcu at augue class conubia dictumst dolor est et eu euismod facilisi facilisis gravida imperdiet ipsum justo magnis metus nibh placerat scelerisque senectus sit vel.Arcu dui etiam himenaeos laoreet litora magnis metus mus non praesent primis taciti.Auctor consequat cubilia curae;
-        dolor donec enim et fermentum habitant hac iaculis imperdiet lorem magna metus montes netus parturient phasellus potenti sed turpis ut vivamus.
+
+
+          
+
+Let me give you a little low down of what I do here:
+
+I produce and play my own music. Visiting and checking out this site is the best way to show some love to me as a musician. I offer to you the opportunity to help an artist grow. The more PunkBordello grows, the more able I’ll be to put on the best show possible, with the best music possible.
+
+
+About
+
+My name is Cory Jones - and I like to do one thing…. Play that loud ass funky shit, boi. Bordello is another word for a brothel and so the first time I heard that word in a band name my immediate next thought was PunkBordello (Punk Rock Whorehouse). I came up with it a very, long time ago and quite honestly it just sounded like the most Punk shit I’d ever heard. So I kept it and now I’m running with it. 
+	Now My first album, “Epitaph” was me realizing what I had the potential to do with basic tools and a dream. I spent an incredible amount of time creating and just learning how to produce everything on that album with a small amount of help. 
+	This next album (entitled eponymously) “PunkBordello” is going to be a reflection of everything |I’ve learned in the time since. An acknowledgement that punk is purely an attitude, yet the most punk shit I could ever do is whatever experimental thing I can think of for the song. 
+	I believe in music without limitations - “For the love of music”. 
+Growth without limitations allowed us to be the versions of ourselves we actually should strive to be.
+
+Online store:
+Eventually, the goal is to get to place where I can make PunkBordello more of a career project. Show your support and rep the brand by buying some merch, fambinos ❤
       </p>
       <button>
         <a  id="learn_more"href="#" >Learn more about me</a>

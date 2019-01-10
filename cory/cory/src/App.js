@@ -13,11 +13,11 @@ class App extends Component {
        <div>
          <img id="hero-image"src={CoryImage} alt="hero Image"/>
           <h1 id="hero-title">Punk Bordello</h1>
-          <ul className="header">
-            <a><NavLink className="navLink" to="/">Home</NavLink></a>
+          <ul className="header" inverse fluid>
+            <a><NavLink className="navLink right-link" to="/music">Music</NavLink></a>
+            <a><NavLink className="navLink " to="/">Home</NavLink></a>
             <a><NavLink className="navLink" to="/about">About</NavLink></a>
            <a><NavLink className="navLink" to="/topics">Topics</NavLink></a>
-            <a><NavLink className="navLink" to="/music">Music</NavLink></a>
           </ul>
           
             <Route path="/"exact component={Home}/>
