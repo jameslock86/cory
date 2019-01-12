@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import './index.css';
+import PickGuitar from '../public/pickGuitar.jpg';
 class Music extends Component {
   render() {
     return (
@@ -11,6 +12,7 @@ class Music extends Component {
            it’ll always be the first thing to come up</p>
  
         <p>Duis a turpis sed lacus dapibus elementum sed eu lectus.</p>
+        <img src={PickGuitar} alt="guitar"/>
       </div>
     );
   }
