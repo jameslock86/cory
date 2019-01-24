@@ -6,6 +6,8 @@ import About from './components/about.js';
 import Topics from './components/topics.js';
 import Music from './components/music.js';
 import CoryImage from './public/coryImage.jpg';
+import Publishing from './components/publishing.js';
+
 class App extends Component {
   render() {
     return (
@@ -17,13 +19,16 @@ class App extends Component {
             <a><NavLink className="navLink right-link" to="/music">Music</NavLink></a>
             <a><NavLink className="navLink " to="/">Home</NavLink></a>
             <a><NavLink className="navLink" to="/about">About</NavLink></a>
-           <a><NavLink className="navLink" to="/topics">Topics</NavLink></a>
+            <a><NavLink className="navLink" to="/topics">Topics</NavLink></a>
+            <a><NavLink className="navLink" to="/publishing">Publishing</NavLink></a>
           </ul>
           
             <Route path="/"exact component={Home}/>
             <Route path="/about" component={About}/>
             <Route path="/topics" component={Topics}/>
             <Route path="/music" component={Music}/>
+            <Route path="/publishing" component={Publishing}/>
+
           </div>
         
       </HashRouter >
