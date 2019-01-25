@@ -7,14 +7,17 @@ import Topics from './components/topics.js';
 import Music from './components/music.js';
 import CoryImage from './public/coryImage.jpg';
 import Publishing from './components/publishing.js';
-
+import LogoBordello from './public/logoBordello.png';
 class App extends Component {
   render() {
     return (
       <HashRouter >
        <div>
+         
+         <img id="logoBordello"src={LogoBordello} alt="logoImage"/>
          <img id="hero-image"src={CoryImage} alt="hero Image"/>
-          <h1 id="hero-title">Punk Bordello</h1>
+          
+          
           <ul className="header" inverse fluid>
             <a><NavLink className="navLink right-link" to="/music">Music</NavLink></a>
             <a><NavLink className="navLink " to="/">Home</NavLink></a>
