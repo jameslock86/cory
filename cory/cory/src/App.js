@@ -11,8 +11,8 @@ import LogoBordello from './public/logoBordello.png';
 class App extends Component {
   render() {
     return (
-      <HashRouter >
-       <div>
+      <HashRouter>
+       <div >
          
          <img id="logoBordello"src={LogoBordello} alt="logoImage"/>
          <img id="hero-image"src={CoryImage} alt="hero Image"/>
