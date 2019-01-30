@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Route, NavLink, HashRouter } from "react-router-dom";
+import ReactGA from 'react-ga';
 import './App.css';
 import Home from './components/home.js';
 import About from './components/about.js';
@@ -8,7 +9,18 @@ import Music from './components/music.js';
 import CoryImage from './public/coryImage.jpg';
 import Publishing from './components/publishing.js';
 import LogoBordello from './public/logoBordello.png';
+
+
+function initializeReactGA() {
+  ReactGA.initialize('UA-123791717-1');
+  ReactGA.pageview('/home');
+}
+
 class App extends Component {
+
+
+
+  
   render() {
     return (
       <HashRouter>
