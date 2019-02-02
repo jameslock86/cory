@@ -1,6 +1,8 @@
 Logo Font 
 https://www.dafont.com/saint.font?text=Punk+Bordello&psize=l
 
+icons
+https://www.npmjs.com/package/react-icons
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
