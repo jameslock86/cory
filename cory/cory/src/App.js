@@ -5,6 +5,7 @@ import './App.css';
 import Home from './components/home.js';
 import About from './components/about.js';
 import Topics from './components/topics.js';
+import Contact from './components/contact.js';
 import Music from './components/music.js';
 import CoryImage from './public/coryImage.jpg';
 import Publishing from './components/publishing.js';
@@ -36,6 +37,7 @@ class App extends Component {
             <a><NavLink className="navLink" to="/about">About</NavLink></a>
             <a><NavLink className="navLink" to="/topics">Topics</NavLink></a>
             <a><NavLink className="navLink" to="/publishing">Publishing</NavLink></a>
+            <a><NavLink className="navLink" to="/contact">Get@Me</NavLink></a>
           </ul>
           
             <Route path="/"exact component={Home}/>
@@ -43,6 +45,7 @@ class App extends Component {
             <Route path="/topics" component={Topics}/>
             <Route path="/music" component={Music}/>
             <Route path="/publishing" component={Publishing}/>
+            <Route path="/contact" component={Contact}/>
           
           </div>
         
