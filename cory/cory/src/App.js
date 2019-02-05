@@ -32,12 +32,14 @@ class App extends Component {
           
           
           <ul className="header" inverse fluid>
-            <a><NavLink className="navLink right-link" to="/music">Music</NavLink></a>
-            <a><NavLink className="navLink " to="/">Home</NavLink></a>
+            <a><NavLink className="navLink " to="/"></NavLink></a>
+            <a><NavLink className="navLink" to="/contact">Get@Me</NavLink></a>
             <a><NavLink className="navLink" to="/about">About</NavLink></a>
             <a><NavLink className="navLink" to="/topics">Topics</NavLink></a>
             <a><NavLink className="navLink" to="/publishing">Publishing</NavLink></a>
-            <a><NavLink className="navLink" to="/contact">Get@Me</NavLink></a>
+            <a><NavLink className="navLink" to="/music">Music</NavLink></a>
+            <a><NavLink className="navLink " to="/">Home</NavLink></a>
+            
           </ul>
           
             <Route path="/"exact component={Home}/>

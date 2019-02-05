@@ -48,6 +48,9 @@ class Home extends Component {
 
            
         </div>
+
+
+        
           
        <div className="OnlineStore-section">
           <h2 className="section-title" id="onlineStore-title">Online store:</h2>
