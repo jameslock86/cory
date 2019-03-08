@@ -5,7 +5,7 @@ class About extends Component {
     return (
       <div className="section-body">
          <h2>About</h2>
-        <p> My name is Cory Jones - and I like to do one thing…. Play that loud ass funky shit, 
+        <p className="about-text"> My name is Cory Jones - and I like to do one thing…. Play that loud ass funky shit, 
             boi. Bordello is another word for a brothel and so the first time I heard that word 
             in a band name my immediate next thought was PunkBordello (Punk Rock Whorehouse). I 
             came up with it a very, long time ago and quite honestly it just sounded like the most 
