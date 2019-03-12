@@ -46,7 +46,11 @@ class Home extends Component {
   </div>
 </IconContext.Provider>
 
-           
+<video 
+src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4">
+	
+</video>
+
         </div>
 
 
