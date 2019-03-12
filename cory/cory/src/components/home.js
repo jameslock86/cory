@@ -46,9 +46,15 @@ class Home extends Component {
   </div>
 </IconContext.Provider>
 
+<<<<<<< HEAD
 <video style={{width:"300px"}}
 src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4">	
 <buuton>Play</buuton>
+=======
+<video 
+src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4">
+	
+>>>>>>> 27a3a2f5d73fc90ff841e5143a2df697d6f1585c
 </video>
 
         </div>
